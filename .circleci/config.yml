@@ -116,7 +116,6 @@ jobs:
   release-build:
     machine:
       image: android:2022.09.1
-    resource-class: xlarge
     steps:
       - checkout
       - android/restore-gradle-cache
