@@ -114,8 +114,8 @@ jobs:
           command: node scripts/eval_startup_benchmark_output.js
 
   release-build:
-    executor:
-      name: android:2022.09.1
+    machine:
+      image: android:2022.09.1
       resource-class: xlarge
     steps:
       - checkout
