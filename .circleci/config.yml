@@ -55,6 +55,7 @@ jobs:
   benchmarks-emulator:
     executor:
       name: android/android-machine
+      sdk-version: "33"
       resource-class: xlarge
 
     steps:
