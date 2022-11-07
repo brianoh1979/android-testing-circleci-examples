@@ -158,9 +158,9 @@ workflows:
       - release-build:
           requires:
             - unit-test
-#            - android-test-all
+            - android-test-all
 #            - benchmarks-emulator
-            - benchmarks-ftl
+#            - benchmarks-ftl
           filters:
             branches:
               only: main # Commits to main branch
