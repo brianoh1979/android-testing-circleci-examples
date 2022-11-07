@@ -33,7 +33,7 @@ ext {
     minSdkVersion = 14
     targetSdkVersion = 33
     compileSdkVersion = 33
-    multiDexEnabled true
+    multiDexEnabled = true
 
     // App dependencies
     androidXVersion = '1.0.0'
