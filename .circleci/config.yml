@@ -115,7 +115,7 @@ jobs:
 
   release-build:
     executor:
-      name: android/android-machine
+      name: android:2022.09.1
       resource-class: xlarge
     steps:
       - checkout
